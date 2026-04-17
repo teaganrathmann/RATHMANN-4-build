@@ -31,7 +31,8 @@ header {
 nav {
     grid-area: nav;
     padding: 1rem;
-    background: #ff85a2
+    background: #ff85a2;
+    font-weight: bold;
 }
 
 main {
@@ -62,6 +63,7 @@ footer {
 
 .nav-list a:hover {
     color: #333;
+    background-color: #fff0f5;
 }
 
 .card-row {
@@ -76,7 +78,7 @@ footer {
     border-radius: 12px;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 13px rgba(248, 46, 134, 0.737);
 }
 
 .card img {
@@ -100,9 +102,11 @@ footer {
     max-width: 700px;
     margin: 2rem auto;
     padding: 1.5rem;
-    border: 2px dotted #ffb6c1;
+    border: 9px dotted #ffb6c1;
     border-radius: 15px;
     background-color: #fff0f5;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 #home p {
@@ -124,9 +128,11 @@ footer {
     max-width: 700px;
     margin: 2rem auto;
     padding: 1.5rem;
-    border: 2px dotted #ffb6c1;
+    border: 9px dotted #ffb6c1;
     border-radius: 15px;
     background-color: #fff0f5;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
 }
 
 #tips ul {
