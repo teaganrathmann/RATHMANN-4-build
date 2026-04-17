@@ -83,3 +83,14 @@ footer {
     width: 100%;
     border-radius: 10px;
 }
+
+@media (min-width: 768px) {
+
+    .card-row {
+        flex-direction: row;
+    }
+
+    .card {
+        flex: 1;
+    }
+}
